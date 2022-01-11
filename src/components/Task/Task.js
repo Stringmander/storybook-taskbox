@@ -31,7 +31,7 @@ export default function Task({
         />
       </div>
 
-      <div className="actions" onClick={(event) => event.stopPropogation()}>
+      <div className="actions" onClick={(event) => event.stopPropagation()}>
         {state !== "TASK_ARCHIVED" && (
           <a onClick={() => onPinTask(id)}>
             <span
